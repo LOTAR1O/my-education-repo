@@ -1,2 +1,3 @@
+<<<<<<< HEAD
 # my-education-rep
-
+=======
