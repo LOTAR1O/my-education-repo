@@ -1,32 +1,99 @@
-<table>
-    <thead>
-    <tr>
-        <th>Столбец 1</th>
-        <th>Столбец 2</th>
-        <th>Столбец 3</th>
-        <th>Столбец 4</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>Данные 1.1</td>
-        <td>Данные 1.2</td>
-        <td>Данные 1.3</td>
-    </tr>
-    <tr>
-        <td>Данные 2.1</td>
-        <td>Данные 2.2</td>
-        <td>Данные 2.3</td>
-    </tr>
-    <tr>
-        <td>Данные 3.1</td>
-        <td>Данные 3.2</td>
-        <td>Данные 3.3</td>
-    </tr>
-    <tr>
-        <td> 1</td>
-        <td> 2</td>
-        <td> 3</td>
-    </tr>
-    </tbody>
-</table>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анна Иванова — Графический дизайнер</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .photo {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 4px solid #4CAF50;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .contacts {
+            background-color: #e8f5e8;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<!-- Шапка с именем и фото -->
+<div class="header">
+    <img src="https://via.placeholder.com/150" alt="Фото Анны Ивановой" class="photo">
+    <h1>Анна Иванова</h1>
+    <p>Графический дизайнер | Иллюстратор</p>
+</div>
+
+<!-- О себе -->
+<div class="section">
+    <h2>Обо мне</h2>
+    <p>Привет! Я графический дизайнер с 5‑летним опытом создания логотипов, фирменного стиля и иллюстраций. Люблю работать с креативными проектами и превращать идеи в визуальные истории.</p>
+</div>
+
+<!-- Услуги -->
+<div class="section">
+    <h2>Мои услуги</h2>
+    <ul>
+        <li>Разработка логотипов и фирменного стиля</li>
+        <li>Создание иллюстраций для книг и журналов</li>
+        <li>Дизайн упаковки и рекламных материалов</li>
+        <li>Веб‑графика и баннеры</li>
+    </ul>
+</div>
+
+<!-- Портфолио (примеры работ) -->
+<div class="section">
+    <h2>Портфолио</h2>
+    <p>Примеры моих работ можно посмотреть в <a href="https://behalf.com/anna-ivanova" target="_blank">Behalf</a> или <a href="https://dribbble.com/anna-ivanova" target="_blank">Dribbble</a>.</p>
+</div>
+
+<!-- Контакты -->
+<div class="section contacts">
+    <h2>Контакты</h2>
+    <p><strong>Email:</strong> <a href="mailto:anna@example.com">anna@example.com</a></p>
+    <p><strong>Телефон:</strong> +7 (999) 123-45-67</p>
+    <p><strong>Соцсети:</strong>
+        <a href="https://t.me/anna_ivanova" target="_blank">Telegram</a> |
+        <a href="https://vk.com/anna_ivanova" target="_blank">VK</a>
+    </p>
+</div>
+
+<!-- Футер -->
+<footer style="text-align: center; margin-top: 20px; color: #7f8c8d;">
+    <p>&copy; 2024 Анна Иванова. Все права защищены.</p>
+</footer>
+</body>
+</html>
